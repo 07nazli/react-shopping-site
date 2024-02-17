@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ShoppingCart } from 'phosphor-react'
-import  "./NavBar.css"
+import  "./Navbar.css"
 
-export const NavBar = () => {
+const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='links'>
@@ -15,3 +15,5 @@ export const NavBar = () => {
     </div>
   );
 };
+
+export default Navbar
