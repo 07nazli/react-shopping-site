@@ -13,7 +13,7 @@ const Cartitem = (props) => {
         <p>${price}</p>
         <div className='countHandler'>
           <button onClick={() => removeFromCart(id)}> - </button>
-          <input value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)}/>
+          <input value={isNaN(cartItems[id]) ? "" : String(cartItems[id])}  onChange={(e) => updateCartItemCount(Number(e.target.value), id)}/>
           <button onClick={() => addToCart(id)}> + </button>
         </div>
       </div>

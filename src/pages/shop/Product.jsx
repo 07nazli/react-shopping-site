@@ -18,7 +18,6 @@ const Product = (props) => {
       </div>
       <button className="addToCartBttn" onClick={(e) => {
         addToCart(id);
-        console.log('Button clicked')
         }}>
           Add To Cart {cartItemCount > 0 && <> ({cartItemCount})</>}
           </button>
