@@ -16,6 +16,27 @@
     margin: 30px;
 }
 
+.cartItem .countHandler input {
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cartItem .countHandler button {
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;  
+}
+
+.cartItem .countHandler button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
 .cartItem img {
     width: 200px;
     height: 200px;
